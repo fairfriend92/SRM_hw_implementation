@@ -1,0 +1,19 @@
+v 4
+file . "exc_synapse_tb.vhd" "229a720c2fa4c60649fb12136404a5accda35396" "20160414165544.824":
+  entity exc_synapse_tb at 1( 0) + 0 on 818;
+  architecture test of exc_synapse_tb at 8( 116) + 0 on 819;
+file . "neuron.vhd" "045e197b07002a8d186ae6de7728cdb7f37f030f" "20160415144602.502":
+  entity counter at 1( 0) + 0 on 842;
+  architecture behavioural of counter at 21( 612) + 0 on 843;
+  entity lut at 48( 1576) + 0 on 844;
+  architecture behavioural of lut at 70( 2093) + 0 on 845;
+  entity exc_synapse at 115( 3908) + 0 on 846;
+  architecture behavioural of exc_synapse at 132( 4365) + 0 on 847;
+  entity inh_synapse at 187( 6306) + 0 on 848;
+  architecture behavioural of inh_synapse at 197( 6497) + 0 on 849;
+file . "counter_tb.vhd" "c3b50b6e35d1080d5222ef8042af7ca237c9343e" "20160407165039.968":
+  entity counter_tb at 1( 0) + 0 on 196;
+  architecture test of counter_tb at 9( 160) + 0 on 197;
+file . "lut_tb_a.vhd" "4b4b453a4c2933a920cd1f1c74ad42127f0f6d41" "20160413155508.878":
+  entity lut_tb at 1( 0) + 0 on 718;
+  architecture test of lut_tb at 10( 133) + 0 on 719;
